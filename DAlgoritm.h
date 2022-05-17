@@ -1,6 +1,6 @@
 #pragma once
 #include<string>
-#include "list.h"
+#include "List.h"
 #include "map.h"
 
 class AdjList {
