@@ -19,9 +19,9 @@ int main() {
 		for (int i = 0; i < list_fly->get_size(); i++)
 			cout << list_fly->at(i) << endl;
 		cout <<  endl;
-		cout << "Enter the finish point" << endl;
-		getline(cin, city_Start);
 		cout << "Enter the start point" << endl;
+		getline(cin, city_Start);
+		cout << "Enter the finish point" << endl;
 		getline(cin, city_End);
 		AdjList* adj = new AdjList(list_fly);
 		cout << adj->DAlgorithm(city_Start, city_End);
